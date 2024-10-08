@@ -6,7 +6,7 @@ require (
 	github.com/mholt/archiver v3.1.1+incompatible
 	github.com/nwaples/rardecode v1.1.3
 	github.com/sirupsen/logrus v1.9.3
-	golang.org/x/text v0.17.0
+	golang.org/x/text v0.19.0
 )
 
 require (
