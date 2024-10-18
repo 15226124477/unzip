@@ -1,6 +1,6 @@
 module github.com/15226124477/unzip
 
-go 1.22.0
+go 1.23.1
 
 require (
 	github.com/mholt/archiver v3.1.1+incompatible
