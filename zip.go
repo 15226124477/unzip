@@ -77,7 +77,7 @@ func (unzip *ZipFile) Unzip() {
 		log.Error(err)
 		return
 	}
-	if unzip.ZipType == ".unzip" {
+	if unzip.ZipType == ".zip" {
 		// 第一步，打开 unzip 文件
 		zipFile, err := zip.OpenReader(unzip.ZipFilePath)
 		if err != nil {
